@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+     <link rel="stylesheet" href="style" />
+    <link
+  href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&display=swap"
+  rel="stylesheet"
+/>
+<style>
+    * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+/* HEADER   */
+
+.nav-id {
+  width: 100%;
+  height: 80px;
+  background-color: #be3144;
+}
+
+#navbar {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.nav-list {
+  display: flex;
+  margin: 10px;
+  list-style-type: none;
+  position: absolute;
+  right: 0;
+  font-weight: bold;
+  font-size: 1.8rem;
+}
+
+li {
+  margin: 10px;
+}
+
+#welcome-section {
+  
+  width: 100%;
+  height: 500px;
+  background-color: #303841;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+} 
+
+.nama {
+  text-align: center;
+  font-size: 4.2rem;
+  color: white;
+}
+
+#nma {
+  font-size: 2.2rem;
+  color: #be3144;
+}
+
+/* ISI UTAMA */
+
+#projects {
+  background-color: #45567d;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+img {
+  width: 70%;
+  padding: 5px;
+}
+
+.title-atas {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  font-size: 3.2rem;
+
+}
+
+.project-title {
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 1.5rem
+}
+
+.display-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+/* KONTAK */
+
+#contact {
+  height: 300px;
+  width: 100%;
+  background-color: #be3144;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.jane {
+  text-align: center;
+  font-size: 3rem;
+  align-items: center;
+}
+
+.contact-links {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 24px;
+  color: blue;
+  align-items: center;
+}
+</style>
+    </head>
+
+    <body>
+    <nav id="navbar" class="nav-id">
+      <ul class="nav-list">
+        <li>
+          <a href="#welcome-section">Tentang</a>
+        </li>
+        <li>
+          <a href="#projects">Project</a>
+        </li>
+        <li>
+          <a href="#contact">Kontak</a>
+        </li>
+        </ul>
+      </nav>
+      
+      <section id="welcome-section" class="welcome-section">
+        <h1 class="nama">Halo, Saya Sandi</h1>
+        <p class="nama" id="nma"><em>MAFA 12 TKJ 3</em></p>
+        </section>
+        <section id="projects" class="projects-section">
+  <h2 class="title-atas"><u>Inilah beberapa project saya</u></h2>
+          <div class="display-grid">
+
+            <div class="survey">
+            <a href="https://sandi45ms.github.io/Flissss/" target="_blank" class="project project-tile">
+              <img src="https://i.ibb.co/zRT13QP/20230925-141648.jpg" class="project-image" alt="project">
+              <p class="project-title">
+              Survey Form
+              </p>
+              </a>
+              </div>
+
+              <a href="https://sandi45ms.github.io/nicola/" target="_blank" class="project project-tile">
+                <img src="https://i.ibb.co/26bsvDd/20230925-141712.jpg" class="project-image" alt="project">
+                <p class="project-title">
+              Tribute Page
+                  </p>
+                </a>
+
+                 <a href="https://sandi45ms.github.io/porsh/" target="_blank" class="project project-tile">
+                <img src="https://i.ibb.co/0DtXHHB/20230925-141728.jpg" class="project-image" alt="project">
+                <p class="project-title">
+              Technical Documentation Page
+                  </p>
+                </a>
+
+                 <a href="https://sandi45ms.github.io/miui/" target="_blank" class="project project-tile">
+                <img src="https://i.ibb.co/ScrHhDp/20230925-141750.jpg" class="project-image" alt="project">
+                <p class="project-title">
+              Product Landing Page
+                  </p>
+                </a>
+
+            </div>
+          </section>
+
+          <section id="contact" class="contact-section">
+            <div class="cc">
+              <h2 class="jane">Mari Bekerja Sama...</h2>
+              <p class="jane"><em>Bagaimana dengan secangkir kopi?</em></p>
+              </div>
+
+              <div class="contact-links">
+
+                <a href="https://www.facebook.com/hehem.buayv?mibextid=ZbWKwL" target="_blank" class="btn contact-details"> Facebook</a>
+                <a href="https://wa.me/6285643325626" target="_blank" class="btn contact-details"> WhatsApp</a>
+                <a href="https://www.instagram.com/sandiz_55/?igshid=MzMyNGUyNmU2YQ%3D%3D" target="_blank" class="btn contact-details"> Instagram</a>
+                <a href="https://www.freecodecamp.org/SandiSaputra" target="_blank" class="btn contact-details" id="profile-link"> Freecodecamp</a>
+               
+                
+                </div>
+            </setion>
+      </body>
+  </html>
